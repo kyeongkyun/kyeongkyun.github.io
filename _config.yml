@@ -1,3 +1,27 @@
+title: 경균의 기술 블로그
+description: 개발과 일상을 정리하는 공간
+author: kyeongkyun
+email: kyeongkyun@example.com
+url: "https://kyeongkyun.github.io" # 꼭 설정할 것
+baseurl: "" # 사용자 페이지는 빈 문자열
+
 theme: minima
-title: 내 깃허브 블로그
-description: GitHub Pages만으로 만든 블로그
+
+# 블로그 글 설정
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+paginate: 5
+paginate_path: "/page:num"
+
+# 소셜
+social_links:
+  github: kyeongkyun
+  email: kyeongkyun@example.com
+  rss: rss
+
+# 페이지 빌드 시 포함할 파일
+include:
+  - _pages
+
+plugins:
+  - jekyll-paginate
