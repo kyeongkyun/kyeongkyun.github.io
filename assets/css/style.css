@@ -19,6 +19,7 @@ h1, h2, h3 {
     display: block;
     border-radius: 6px;
     overflow-x: auto;
+    font-family: 'Pretendard', sans-serif;
   }
   
   /* 링크 스타일 */
