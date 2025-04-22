@@ -1,0 +1,33 @@
+/* 제목 스타일 변경 */
+h1, h2, h3 {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #2B79FA;
+  }
+  
+  /* 본문 기본 폰트 */
+  body {
+    font-size: 16px;
+    font-family: 'Pretendard', sans-serif;
+    line-height: 1.8;
+    color: #333;
+  }
+  
+  /* 코드 블록 */
+  pre code {
+    background: #f4f4f4;
+    padding: 0.8em;
+    display: block;
+    border-radius: 6px;
+    overflow-x: auto;
+  }
+  
+  /* 링크 스타일 */
+  a {
+    color: #2B79FA;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
