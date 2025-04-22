@@ -20,6 +20,7 @@ social_links:
 # 페이지 빌드 시 포함할 파일
 include:
   - _pages
+  - _includes/head-custom.html
 
 plugins:
   - jekyll-paginate
